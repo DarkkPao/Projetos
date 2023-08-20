@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  margin-bottom: 2%;
+}
+
+#container {
+  background-color: lightblue;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#Calculadora {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#altura {
+  border-radius: 5px;
+  border: none;
+}
+
+#resultado-P {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#resultado {
+  border-bottom: 2px solid blue;
+
+}
