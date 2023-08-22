@@ -4,4 +4,10 @@ function calcularIMC() {
   const IMC = (peso / Math.pow(altura, 2)).toFixed(2);
 
   document.getElementById("resultadoP").textContent = IMC;
+  limparCampos();
+}
+
+function limparCampos() {
+  document.getElementById("altura").value = null;
+  document.getElementById("peso").value = null;
 }
