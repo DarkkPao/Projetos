@@ -3,5 +3,5 @@ function calcularIMC() {
   const peso = parseFloat(document.getElementById("peso").value);
   const IMC = (peso / Math.pow(altura, 2)).toFixed(2);
 
-  document.getElementById("resultado").textContent = IMC;
+  document.getElementById("resultadoP").textContent = IMC;
 }
