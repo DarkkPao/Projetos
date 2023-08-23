@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora de IMC</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css" />
     <script src="./index.js" defer></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div id="container">
-        <h1 id="title">Calculadora de IMC</h1>
-        <div id="Calculadora">
-
-            <div>
-                <label for="altura">Sua altura</label>
-                <input type="number" name="altura" id="altura" placeholder="Digite sua altura">
-            </div>
-
-            <div>
-                <label for="peso">Seu peso</label>
-                <input type="number" name="peso" id="peso" placeholder="Digite seu peso">
-
-            </div>
-
-            <div>
-                <button onclick="calcularIMC()" id="botao">Calcular</button>
-            </div>
-
-            <div id="resultado">
-                <label>Seu IMC</label>
-                <p id="resultadoP"> </p>
-
-            </div>
-
+      <h1 id="title">Calculadora de IMC</h1>
+      <div id="Calculadora">
+        <div>
+          <label for="altura">Sua altura</label>
+          <input
+            type="number"
+            name="altura"
+            id="altura"
+            placeholder="Digite sua altura"
+          />
         </div>
+
+        <div>
+          <label for="peso">Seu peso</label>
+          <input
+            type="number"
+            name="peso"
+            id="peso"
+            placeholder="Digite seu peso"
+          />
+        </div>
+
+        <div>
+          <button onclick="calcularIMC()" id="botao">Calcular</button>
+        </div>
+
+        <div id="resultado">
+          <p id="resultadoP"></p>
+        </div>
+      </div>
+
+      <a href="https://github.com/DarkkPao" id="madeBy">Made by: Vítor Gonçalves</a>
     </div>
-
-</body>
-
+  </body>
 </html>

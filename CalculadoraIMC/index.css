@@ -89,3 +89,17 @@
   display: flex;
   justify-content: center;
 }
+
+#madeBy{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+#madeBy:hover{
+color: #675afe;
+}
