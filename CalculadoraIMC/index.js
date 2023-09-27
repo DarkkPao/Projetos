@@ -19,11 +19,6 @@ function validacao(altura, peso, IMC, mensagemResultado) {
   }
 }
 
-function limparCampos() {
-  document.getElementById("altura").value = null;
-  document.getElementById("peso").value = null;
-}
-
 function comparaIMC(IMC) {
   if (IMC <= 16.9) {
     return "Muito abaixo do peso ideal";
@@ -42,3 +37,7 @@ function comparaIMC(IMC) {
   }
 }
 
+function limparCampos() {
+  document.getElementById("altura").value = null;
+  document.getElementById("peso").value = null;
+}
