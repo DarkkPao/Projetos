@@ -19,16 +19,16 @@ h1 {
   display: flex;
   width: 100%;
   justify-content: center;
-  
 }
 
 #visor {
-  width: 16.6rem;
+  width: 20rem;
   height: 3rem;
   margin-bottom: 3px;
   border-radius: 5px;
   margin-bottom: 0.5rem;
   border: transparent;
+  font-size: x-large;
 }
 
 #calc {
@@ -68,6 +68,11 @@ h1 {
 
 #buttons-container button:hover {
   background-color: rgb(150, 147, 147);
+}
+
+#buttons-container #cancel {
+  grid-column: span 2;
+  width: auto;
 }
 
 #buttons-container #equal {
