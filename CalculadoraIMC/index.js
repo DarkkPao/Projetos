@@ -41,3 +41,7 @@ function limparCampos() {
   document.getElementById("altura").value = null;
   document.getElementById("peso").value = null;
 }
+
+document.getElementById("btnCalc").addEventListener("click", function () {
+  window.location.href = "../Calculadora/index.html";
+});
