@@ -22,9 +22,6 @@
   background-color: #2980b9;
 }
 
-
-
-
 #title {
   font-size: 40px;
   display: flex;
@@ -111,7 +108,7 @@
   justify-content: center;
 }
 
-#madeBy{
+#madeBy {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -121,6 +118,6 @@
   color: #000;
 }
 
-#madeBy:hover{
-color: #675afe;
+#madeBy:hover {
+  color: #675afe;
 }
